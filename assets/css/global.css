@@ -8,12 +8,16 @@
     --purple: #ad26b4;
     --yellow: #fecd35;
     --red: #f05230;
-    --darkgrey: #15171A;
     --midgrey: #738a94;
-    --lightgrey: #c5d2d9;
+    --lightgrey: #f6f8fa;
     --whitegrey: #e5eff5;
     --pink: #fa3a57;
     --brown: #a3821a;
+    /* OK */
+    --orange: #D95B43;
+    --deepblue:#00A0B0;
+    --deepgrey: #212121;
+    --darkgrey: #333;
 }
 
 /* Reset
@@ -415,7 +419,7 @@ blockquote cite a {
 }
 
 a {
-    color: color(var(--blue) l(-5%));
+    color: var(--orange);
     text-decoration: none;
 }
 
